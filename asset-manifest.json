@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CCP-App/static/css/main.37584b68.css",
+    "main.js": "/CCP-App/static/js/main.ab48acd8.js",
+    "static/js/787.017ab94f.chunk.js": "/CCP-App/static/js/787.017ab94f.chunk.js",
+    "index.html": "/CCP-App/index.html",
+    "main.37584b68.css.map": "/CCP-App/static/css/main.37584b68.css.map",
+    "main.ab48acd8.js.map": "/CCP-App/static/js/main.ab48acd8.js.map",
+    "787.017ab94f.chunk.js.map": "/CCP-App/static/js/787.017ab94f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37584b68.css",
+    "static/js/main.ab48acd8.js"
+  ]
+}
