@@ -1,15 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
+  BrowserRouter,
 } from "react-router-dom";
-import './i18n';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import { RecoilRoot } from 'recoil';
-import { LoginPage } from './Pages/LoginPage';
-import { App } from './App';
+import "./i18n";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import { RecoilRoot } from "recoil";
+import { LoginPage } from "./Pages/LoginPage";
+import { App } from "./App";
 
 const router = createBrowserRouter([
   {
@@ -23,14 +24,16 @@ const router = createBrowserRouter([
 ]);
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 
 root.render(
   <React.StrictMode>
-    <RecoilRoot>
-      <RouterProvider router={router} />
-    </RecoilRoot>
+    <BrowserRouter basename="/CCP-App" >
+      <RecoilRoot>
+        <RouterProvider router={router} />
+      </RecoilRoot>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
